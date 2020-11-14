@@ -31,7 +31,7 @@ def repetitie():
     best_so_far = str()
 
     while scor(fraza) < scor(shakespeare):
-        time.sleep(0.05)
+        #time.sleep(0.2)
         if repetare == 1000: # la 1000 de repetitii printeaza cel mai bun scor
             print('-'*20)
             print("BEST SO FAR:",best_so_far, scor(best_so_far))
